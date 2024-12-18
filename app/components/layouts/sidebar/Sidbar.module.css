@@ -5,10 +5,9 @@
 .logo {
   text-align: center;
 }
-.nav-list {
+.navlist {
   display: flex;
 }
 .navitem {
   width: 200px;
-  min-width: 200px;
 }
