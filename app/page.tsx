@@ -2,7 +2,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "./components/layouts/header/Header";
 import Footer from "./components/layouts/footer/Footer";
-import MainPage from "@/app/page/MainPage/Main";
+import HomePage from "@/app/page/HomePage/Home";
 import ContactPage from "@/app/page/ContactPage/contact";
 import Sidebar from "./components/layouts/sidebar/Sidebar";
 // import MoviesPage from "./pages/MoviesPage/MoviesPage";
@@ -17,7 +17,7 @@ export default function Home() {
         <Sidebar />
 
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/Contact" element={<ContactPage />} />
           {/* <Route path="/Movies" element={<MoviesPage />} />
           <Route path="/Toolphoto" element={<ToolphotoPage />} />
