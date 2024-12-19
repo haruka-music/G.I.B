@@ -10,4 +10,17 @@
 }
 .navitem {
   width: 200px;
+  list-style: none;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+.navitem:first-child {
+  border-left: 1px solid #ddd;
+}
+.Link {
+  text-decoration: none;
+  color: #333;
+}
+.Link:hover {
+  color: #00bfff;
 }
