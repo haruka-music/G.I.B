@@ -1,3 +1,11 @@
-.PostHeadline {
-  text-align: center;
+.post {
+}
+.ul {
+  list-style: none;
+}
+.list {
+  display: flex;
+}
+.figure {
+  background-color: #333;
 }

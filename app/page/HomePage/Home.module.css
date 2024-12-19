@@ -1,3 +1,15 @@
+.PostHeadline {
+  text-align: center;
+}
 .MainImage {
   text-aligin: center;
+}
+.MainImage {
+  text-align: center;
+}
+.article {
+  text-align: center;
+}
+.contrainer {
+  display: flex;
 }
