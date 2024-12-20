@@ -13,3 +13,6 @@
 .contrainer {
   display: flex;
 }
+.section {
+  text-align: center;
+}

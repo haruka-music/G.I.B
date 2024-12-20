@@ -5,7 +5,9 @@
 }
 .list {
   display: flex;
+  flex-wrap: wrap;
 }
 .figure {
   background-color: #008b8b;
+  width: 30.5%;
 }
