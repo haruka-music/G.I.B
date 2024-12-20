@@ -24,7 +24,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className={classes.navitem}>
-            <Link className={classes.Link} to="/">
+            <Link className={classes.Link} to="/Collection">
               コレクション
             </Link>
           </li>

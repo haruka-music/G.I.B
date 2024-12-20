@@ -33,7 +33,7 @@ const Home = () => {
           <br></br>by GOSHI INOUE
         </p>
       </article>
-      <h1 className={classes.PostHeadline}>コレクション</h1>
+      <h1 className={classes.PostHeadline}>Collection</h1>
       <div className={classes.contrainer}>
         <Main />
         <Aside />
@@ -50,6 +50,18 @@ const Home = () => {
           イメージを伝えて頂ければご要望に合ったオリジナルアクセサリーもお作り出来ます
           <br />
           （一部、お時間を頂く可能性がございます）
+        </p>
+      </section>
+      <section className={classes.section}>
+        <h1 className={classes.headline}>事業内容</h1>
+        <p>
+          ・ファッションショップでの販売
+          <br />
+          服やカバンに合ったアクセサリーを店頭販売して頂いてます
+          <br />
+          ・カフェでの販売
+          <br />
+          コースターやアクセサリーをグッズ販売として展示販売
         </p>
       </section>
     </>
