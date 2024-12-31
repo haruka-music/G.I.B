@@ -14,7 +14,7 @@ const contact = () => {
                 <label htmlFor="menu">Menu</label>
               </th>
               <td>
-                <select name="" id="menu">
+                <select className={classes.select} name="" id="menu">
                   <option value="menu-1">Menu 1</option>
                   <option value="menu-2">Menu 2</option>
                   <option value="menu-3">Menu 3</option>
@@ -26,7 +26,7 @@ const contact = () => {
                 <label htmlFor="name">Name</label>
               </th>
               <td>
-                <input type="text" id="name" />
+                <input className={classes.select} type="text" id="name" />
               </td>
             </tr>
             <tr>
@@ -34,20 +34,38 @@ const contact = () => {
                 <label htmlFor="email">Email</label>
               </th>
               <td>
-                <input type="email" id="email" />
+                <input className={classes.select} type="email" id="email" />
               </td>
             </tr>
             <tr>
               <th>Gender</th>
               <td>
                 <label>
-                  <input type="radio" name="gender" value="male" /> Male
+                  <input
+                    className={classes.input}
+                    type="radio"
+                    name="gender"
+                    value="male"
+                  />{" "}
+                  Male
                 </label>
                 <label>
-                  <input type="radio" name="gender" value="femail" /> Femail
+                  <input
+                    className={classes.input}
+                    type="radio"
+                    name="gender"
+                    value="femail"
+                  />{" "}
+                  Femail
                 </label>
                 <label>
-                  <input type="radio" name="gender" value="other" /> Other
+                  <input
+                    className={classes.input}
+                    type="radio"
+                    name="gender"
+                    value="other"
+                  />{" "}
+                  Other
                 </label>
               </td>
             </tr>
@@ -56,7 +74,12 @@ const contact = () => {
                 <label htmlFor="detail">Detail</label>
               </th>
               <td>
-                <textarea id="detail" cols={30} rows={10}></textarea>
+                <textarea
+                  className={classes.textarea}
+                  id="detail"
+                  cols={30}
+                  rows={10}
+                ></textarea>
               </td>
             </tr>
           </table>
