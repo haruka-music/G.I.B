@@ -5,6 +5,7 @@ import main from "@/public/HomeImage/main.jpeg";
 import BS from "@/public/HomeImage/BS.jpg";
 import Main from "@/app/page/HomePage/MainPage/main";
 import Aside from "@/app/page/HomePage/AsidePage/aside";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -65,7 +66,9 @@ const Home = () => {
         <p className={classes.description}>
           ご希望、ご質問等の場合はこちらのメールにてお伝え下さい
         </p>
-        {/* <Button /> */}
+        <Link className={classes.Link} to="/Contact">
+          <button type="submit">Submit</button>
+        </Link>
       </section>
     </>
   );
