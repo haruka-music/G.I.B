@@ -33,13 +33,13 @@ const Home = () => {
           <br></br>by GOSHI INOUE
         </p>
       </article>
-      <h1 className={classes.PostHeadline}>Collection</h1>
+      <h1 className={classes.PostHeadline}>- Collection -</h1>
       <div className={classes.contrainer}>
         <Main />
         <Aside />
       </div>
       <section className={classes.section}>
-        <h1 className={classes.headline}>事業内容</h1>
+        <h1 className={classes.headline}>- 事業内容 -</h1>
         <p>
           ・革細工
           <br />
@@ -53,16 +53,19 @@ const Home = () => {
         </p>
       </section>
       <section className={classes.section}>
-        <h1 className={classes.headline}>事業内容</h1>
+        <h1 className={classes.headline}>- アクセス -</h1>
         <p>
-          ・ファッションショップでの販売
+          営業時間・・・9:00〜18:00
           <br />
-          服やカバンに合ったアクセサリーを店頭販売して頂いてます
-          <br />
-          ・カフェでの販売
-          <br />
-          コースターやアクセサリーをグッズ販売として展示販売
+          定休日・・・土、日、祝日
         </p>
+      </section>
+      <section className={classes.section}>
+        <h1 className={classes.headline}>- Contact -</h1>
+        <p className={classes.description}>
+          ご希望、ご質問等の場合はこちらのメールにてお伝え下さい
+        </p>
+        {/* <Button /> */}
       </section>
     </>
   );
