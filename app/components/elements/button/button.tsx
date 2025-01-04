@@ -1,9 +1,12 @@
 import React from "react";
+import classes from "@/app/components/elements/button/button.module.css";
 
 const button = () => {
   return (
     <>
-      <button type="submit">Submit</button>
+      <button className={classes.button} type="submit">
+        Submit
+      </button>
     </>
   );
 };
