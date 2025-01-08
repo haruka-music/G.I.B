@@ -6,8 +6,7 @@ import HomePage from "@/app/page/HomePage/Home";
 import ContactPage from "@/app/page/ContactPage/contact";
 import Sidebar from "@/app/components/layouts/sidebar/Sidebar";
 import CollectionPage from "@/app/page/CollectionPage/collection";
-// import ToolphotoPage from "./pages/ToolphotoPage/ToolphotoPage";
-// import PlayerPage from "./pages/PlayerPage/PlayerPage";
+import AccessPage from "@/app/page/AccessPage/access";
 
 export default function Home() {
   return (
@@ -20,8 +19,7 @@ export default function Home() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Contact" element={<ContactPage />} />
           <Route path="/Collection" element={<CollectionPage />} />
-          {/* <Route path="/Toolphoto" element={<ToolphotoPage />} />
-          <Route path="/Player" element={<PlayerPage />} /> */}
+          <Route path="/Access" element={<AccessPage />} />
         </Routes>
 
         <Footer />

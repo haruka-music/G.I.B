@@ -20,7 +20,7 @@ const Sidebar = () => {
         <ul className={classes.navlist}>
           <li className={classes.navitem}>
             <Link className={classes.Link} to="/">
-              Home
+              ホーム
             </Link>
           </li>
           <li className={classes.navitem}>
@@ -39,7 +39,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className={classes.navitem}>
-            <Link className={classes.Link} to="/">
+            <Link className={classes.Link} to="/Access">
               アクセス
             </Link>
           </li>
