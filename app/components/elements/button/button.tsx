@@ -5,7 +5,7 @@ const button = () => {
   return (
     <>
       <button className={classes.button} type="submit">
-        Submit
+        送信
       </button>
     </>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "@/app/page/ContactPage/contact.module.css";
+import Button from "@/app/components/elements/button/button";
 
 const contact = () => {
   return (
@@ -15,9 +16,9 @@ const contact = () => {
               </th>
               <td>
                 <select className={classes.select} name="" id="menu">
-                  <option value="menu-1">Menu 1</option>
-                  <option value="menu-2">Menu 2</option>
-                  <option value="menu-3">Menu 3</option>
+                  <option value="question-1">アクセサリーについて</option>
+                  <option value="question-2">当社について</option>
+                  <option value="other">その他</option>
                 </select>
               </td>
             </tr>
@@ -26,7 +27,12 @@ const contact = () => {
                 <label htmlFor="name">Name</label>
               </th>
               <td>
-                <input className={classes.select} type="text" id="name" />
+                <input
+                  className={classes.select}
+                  type="text"
+                  id="name"
+                  placeholder="山田 太郎"
+                />
               </td>
             </tr>
             <tr>
@@ -34,7 +40,12 @@ const contact = () => {
                 <label htmlFor="email">Email</label>
               </th>
               <td>
-                <input className={classes.select} type="email" id="email" />
+                <input
+                  className={classes.select}
+                  type="email"
+                  id="email"
+                  placeholder="inoue.g@icloud.com"
+                />
               </td>
             </tr>
             <tr>
@@ -76,6 +87,7 @@ const contact = () => {
               <td>
                 <textarea
                   className={classes.textarea}
+                  placeholder="(ご質問などこちら)"
                   id="detail"
                   cols={30}
                   rows={10}
@@ -83,6 +95,7 @@ const contact = () => {
               </td>
             </tr>
           </table>
+          <Button />
         </form>
       </section>
     </>

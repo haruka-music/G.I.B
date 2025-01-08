@@ -5,6 +5,11 @@ import pick from "@/public/CollectionImag/pick.jpg";
 import rod from "@/public/CollectionImag/1000Rod.jpg";
 import maria from "@/public/CollectionImag/calmMARIA.jpg";
 import rosario from "@/public/CollectionImag/rosario.jpg";
+import rose from "@/public/CollectionImag/rose.jpg";
+import yes from "@/public/CollectionImag/yes.jpg";
+import bird from "@/public/CollectionImag/bird.jpg";
+import black from "@/public/CollectionImag/BlackCorsage.JPG";
+import red from "@/public/CollectionImag/RedCosage.JPG";
 
 const cn = () => {
   return (
@@ -61,65 +66,65 @@ const cn = () => {
             <figure className={classes.figure}>
               <Image
                 className={classes.image}
-                src={pick}
+                src={rose}
                 width={300}
                 height={200}
                 alt="image"
               />
               <figcaption className={classes.title}>
-                <h2>ゴシックピック・ネックレス</h2>
+                <h2>マゼンタローズ・コサージュ</h2>
                 <p>2,000</p>
               </figcaption>
             </figure>
             <figure className={classes.figure}>
               <Image
                 className={classes.image}
-                src={maria}
+                src={yes}
                 width={300}
                 height={200}
                 alt="image"
               />
               <figcaption className={classes.title}>
-                <h2>MARIA・ネックレス</h2>
+                <h2>キリスト・ネックレス</h2>
                 <p>3,000</p>
               </figcaption>
             </figure>
             <figure className={classes.figure}>
               <Image
                 className={classes.image}
-                src={rod}
+                src={bird}
                 width={300}
                 height={200}
                 alt="image"
               />
               <figcaption className={classes.title}>
-                <h2>千年ロッド・2連ネックレス</h2>
+                <h2>小鳥・ネックレス</h2>
                 <p>1,000</p>
               </figcaption>
             </figure>
             <figure className={classes.figure}>
               <Image
                 className={classes.image}
-                src={pick}
+                src={black}
                 width={300}
                 height={200}
                 alt="image"
               />
               <figcaption className={classes.title}>
-                <h2>ゴシックピック・ネックレス</h2>
+                <h2>ブラックローズ・コサージュ</h2>
                 <p>2,000</p>
               </figcaption>
             </figure>
             <figure className={classes.figure}>
               <Image
                 className={classes.image}
-                src={maria}
+                src={red}
                 width={300}
                 height={200}
                 alt="image"
               />
               <figcaption className={classes.title}>
-                <h2>MARIA・ネックレス</h2>
+                <h2>ローズ・コサージュ</h2>
                 <p>3,000</p>
               </figcaption>
             </figure>
