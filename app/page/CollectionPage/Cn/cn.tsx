@@ -8,8 +8,8 @@ import rosario from "@/public/CollectionImag/rosario.jpg";
 import rose from "@/public/CollectionImag/rose.jpg";
 import yes from "@/public/CollectionImag/yes.jpg";
 import bird from "@/public/CollectionImag/bird.jpg";
-import black from "@/public/CollectionImag/BlackCorsage.JPG";
-import red from "@/public/CollectionImag/RedCosage.JPG";
+import black from "@/public/CollectionImag/Black.jpg";
+import red from "@/public/CollectionImag/Red.jpg";
 
 const cn = () => {
   return (
