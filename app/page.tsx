@@ -7,6 +7,8 @@ import ContactPage from "@/app/page/ContactPage/contact";
 import Sidebar from "@/app/components/layouts/sidebar/Sidebar";
 import CollectionPage from "@/app/page/CollectionPage/collection";
 import AccessPage from "@/app/page/AccessPage/access";
+import BusinessPage from "@/app/page/BusinessPage/business";
+import CasePage from "@/app/page/CasePage/case";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
           <Route path="/Contact" element={<ContactPage />} />
           <Route path="/Collection" element={<CollectionPage />} />
           <Route path="/Access" element={<AccessPage />} />
+          <Route path="/Business" element={<BusinessPage />} />
+          <Route path="/Case" element={<CasePage />} />
         </Routes>
 
         <Footer />
