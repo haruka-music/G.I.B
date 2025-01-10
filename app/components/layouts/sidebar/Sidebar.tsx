@@ -29,12 +29,12 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className={classes.navitem}>
-            <Link className={classes.Link} to="/">
+            <Link className={classes.Link} to="/Business">
               事業内容
             </Link>
           </li>
           <li className={classes.navitem}>
-            <Link className={classes.Link} to="/">
+            <Link className={classes.Link} to="/Case">
               事例紹介
             </Link>
           </li>
